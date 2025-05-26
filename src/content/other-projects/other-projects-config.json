@@ -1,0 +1,73 @@
+[
+    {
+        "id": "other-project-cancer-radar",
+        "title": "Prostate Cancer Radar",
+        "year": "Feb 2024 - May 2024",
+        "github": "https://github.com/salemhamdani/ProstateCancerRadar",
+        "tags": [
+            "Python",
+            "React",
+            "Flask",
+            "TensorFlow",
+            "Machine Learning"
+        ],
+        "description": "Prostate Cancer Radar is a small research project that was created in a collaboration with KSU AI Lab and a Tunisian doctor to support diagnosis for 10,000+ men in North Africa.",
+        "image": "/assets/other-projects/cancer.webp",
+        "jpg": "/assets/other-projects/cancer.jpeg"
+    },
+    {
+        "id": "other-project-loan-management",
+        "title": "Loan Management Microservice",
+        "year": "Mar 2023 - April 2023",
+        "github": "https://github.com/salemhamdani/Loan-management",
+        "tags": [
+            "TypeScript",
+            "NestJS",
+            "Html"
+        ],
+        "description": "This project is built on a microservices architecture to manage loans and their statuses.",
+        "image": "/assets/other-projects/loan.webp",
+        "jpg": "/assets/other-projects/loan.jpeg"
+    },
+    {
+        "id": "other-project-Veilcomm",
+        "title": "Veilcomm",
+        "year": "Jan 2023 - Feb 2023",
+        "github": "https://github.com/salemhamdani/EndToEndMessagingApp",
+        "tags": [
+            "Python"
+        ],
+        "description": "Veilcomm is a E2E communication App based on x509 certificates and rsa encryption.",
+        "image": "/assets/other-projects/Veilcomm.webp",
+        "jpg": "/assets/other-projects/Veilcomm.jpeg"
+    },
+    {
+        "id": "other-project-kallos",
+        "title": "Kallos",
+        "year": "Jan 2023 - Apr 2023",
+        "github": "https://github.com/nawresncib12/Kallos.git",
+        "demo": "https://www.youtube.com/watch?v=w26ujmQtsP0",
+        "tags": [
+            "UI/UX",
+            "Angular",
+            "TypeScript",
+            "NestJS"
+        ],
+        "description": "Kallos is an online Greek gifts store created with high-end design and a modern UI/UX.",
+        "image": "/assets/other-projects/kallos.webp",
+        "jpg": "/assets/other-projects/kallos.jpeg"
+    },
+    {
+        "id": "other-project-image-processing",
+        "title": "Image Processing Software",
+        "year": "Oct 2022 - Dec 2022",
+        "github": "https://github.com/IsmailCharfi/ImageProcessingApp/tree/main",
+        "tags": [
+            "Python",
+            "Tkinter"
+        ],
+        "description": "This project is a desktop app to apply different convolution filters with a user-friendly interface.",
+        "image": "/assets/other-projects/image-processing.webp",
+        "jpg": "/assets/other-projects/image-processing.jpeg"
+    }
+]
