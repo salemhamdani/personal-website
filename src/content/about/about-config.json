@@ -7,7 +7,7 @@
             "duration": "Aug 2023 - May 2024",
             "content": [
                 "GPA: 4/4",
-                "Courses: Problem solving, Introduction into Data Science, Database Management Systems, Mathematics for Computer Science"
+                "Courses: Problem Solving, Introduction to Data Science, Database Management Systems, Mathematics for Computer Science"
             ]
         },
         {
@@ -17,13 +17,13 @@
             "duration": "May 2023 - Present",
             "content": [
                 "GPA: 4/4",
-                "Courses: Problem solving, Competetive Programming, Behavioral Interviewing, Advanced Algorithms, Experience Design"
+                "Courses: Problem Solving, Competitive Programming, Behavioral Interviewing, Advanced Algorithms, Experience Design"
             ]
         },
         {
             "id": "edu-1",
             "school": "National Institute of Applied Science and Technology",
-            "degree": "Engineering degree in Computer Science",
+            "degree": "Engineering Degree in Computer Science",
             "duration": "Aug 2019 - Sep 2025",
             "content": [
                 "GPA: 14/20",
@@ -38,8 +38,8 @@
             "position": "Machine Learning Researcher",
             "duration": "May 2025 - Present",
             "description": [
-                "Conducting research using satellite imagery, transfer learning, and inference to detect and analyze ecological richness changes in agricultural field boundaries in Canada.​",
-                "Tools and technologies: Google Earth Engine, TensorFlow, Python, Gitlab, Colab."
+                "Conducting research using satellite imagery, transfer learning, and inference to detect and analyze ecological richness changes in agricultural field boundaries in Canada.",
+                "Tools and Technologies: Google Earth Engine, TensorFlow, Python, Gitlab, Colab."
             ]
         },
         {
@@ -48,9 +48,9 @@
             "position": "Software Engineer",
             "duration": "Feb 2023 - Present",
             "description": [
-                "Contributing to Mindwaves V3 using Google Cloud Functions, Flutter, and optimized AI API interactions through prompt engineering.​",
-                "Maintaining Lintum and LegalTegrity projects, serving over 500 clients, using Springboot, Vue, Hasura, Graphql, and Gitlab pipelines.",
-                "Developed a pdf handling library from scratch that includes new features like adding spot colors and 3D rendering using Vue.js and TypeScript hosted with Gitlab pipeline in Firebase."
+                "Contributing to Mindwaves V3 using Google Cloud Functions, Flutter, and optimizing AI API interactions through prompt engineering.",
+                "Maintaining Lintum and LegalTegrity projects (serving over 500 clients) using Spring Boot, Vue, Hasura, GraphQL, and GitLab pipelines.",
+                "Developed a PDF handling library from scratch, including new features like adding spot colors and 3D rendering, using Vue.js and TypeScript, hosted with GitLab Pages in Firebase."
             ]
         },
         {
@@ -59,8 +59,8 @@
             "position": "Software Engineer",
             "duration": "Oct 2021 - Feb 2023",
             "description": [
-                "Migrated Doranco LMS, used by more than 5000 users, from Symfony version 3.4 to 5.4 (updating old bundles) and using twig, jQuery and Bootstrap to boost the performance of the system by 300%.​",
-                "Developed Okalee LMS, a multi-tenant software, using React, TypeScript, and Symfony sold for 20 clients."
+                "Migrated Doranco LMS (used by over 5,000 users) from Symfony 3.4 to 5.4, updating old bundles and using Twig, jQuery, and Bootstrap to boost system performance by 300%.",
+                "Developed Okalee LMS, a multi-tenant software application, using React, TypeScript, and Symfony, which was sold to 20 clients."
             ]
         }
     ],

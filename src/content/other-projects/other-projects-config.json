@@ -11,23 +11,9 @@
             "TensorFlow",
             "Machine Learning"
         ],
-        "description": "Prostate Cancer Radar is a small research project that was created in a collaboration with KSU AI Lab and a Tunisian doctor to support diagnosis for 10,000+ men in North Africa.",
+        "description": "Prostate Cancer Radar is a research project developed in collaboration with KSU AI Lab and a Tunisian doctor to support diagnoses for over 10,000 men in North Africa.",
         "image": "assets/other-projects/cancer.webp",
         "jpg": "assets/other-projects/cancer.jpeg"
-    },
-    {
-        "id": "other-project-loan-management",
-        "title": "Loan Management Microservice",
-        "year": "Mar 2023 - April 2023",
-        "github": "https://github.com/salemhamdani/Loan-management",
-        "tags": [
-            "TypeScript",
-            "NestJS",
-            "Html"
-        ],
-        "description": "This project is built on a microservices architecture to manage loans and their statuses.",
-        "image": "assets/other-projects/loan.webp",
-        "jpg": "assets/other-projects/loan.jpeg"
     },
     {
         "id": "other-project-Veilcomm",
@@ -37,7 +23,7 @@
         "tags": [
             "Python"
         ],
-        "description": "Veilcomm is a E2E communication App based on x509 certificates and rsa encryption.",
+        "description": "Veilcomm is an E2E (End-to-End) encrypted communication app based on x509 certificates and RSA encryption.",
         "image": "assets/other-projects/Veilcomm.webp",
         "jpg": "assets/other-projects/Veilcomm.jpeg"
     },
@@ -53,7 +39,7 @@
             "TypeScript",
             "NestJS"
         ],
-        "description": "Kallos is an online Greek gifts store created with high-end design and a modern UI/UX.",
+        "description": "Kallos is an online Greek gift store featuring a high-end design and modern UI/UX.",
         "image": "assets/other-projects/kallos.webp",
         "jpg": "assets/other-projects/kallos.jpeg"
     },
@@ -66,7 +52,7 @@
             "Python",
             "Tkinter"
         ],
-        "description": "This project is a desktop app to apply different convolution filters with a user-friendly interface.",
+        "description": "A desktop application with a user-friendly interface for applying various convolution filters to images.",
         "image": "assets/other-projects/image-processing.webp",
         "jpg": "assets/other-projects/image-processing.jpeg"
     }

@@ -1,64 +1,90 @@
 [
     {
-        "id": "featured-project-trackcta",
-        "title": "trackCTA",
-        "year": "Dec 2021 - Present",
-        "location": "Chicago",
-        "demo": "https://www.trackcta.com/",
-        "github": "https://github.com/hrishikeshpaul/trackcta",
-        "tags": ["React", "TypeScript", "NodeJS", "Web Sockets", "i18n", "Google Maps", "GCP", "CI/CD", "Shell"],
-        "description": "An internationalized web app to track and predict Chicago Transit Authority (CTA) busses and trains.",
-        "image": "assets/featured-projects/trackcta.webp",
-        "jpg": "assets/featured-projects/trackcta.jpeg"
-    },
-    {
-        "id": "featured-project-asctb-reporter",
-        "title": "ASCT+B Reporter",
-        "year": "Jun 2020 - Jun 2021",
-        "location": "Indiana University",
-        "demo": "https://hubmapconsortium.github.io/ccf-asct-reporter/",
-        "github": "https://github.com/hrishikeshpaul/ccf-asct-reporter",
-        "tags": ["Angular 11", "TypeScript", "NodeJS", "NGXS", "Vega", "TravisCI", "Open Source"],
-        "description": "A collaboration with the NIH to build visualization tool to envision large biomedical datasets for researchers, doctors and experts.",
-        "readMore": "https://hrishikeshpaul.medium.com/asct-b-reporter-a-visualization-tool-d4dd29de97d8",
-        "image": "assets/featured-projects/asctb.webp",
-        "jpg": "assets/featured-projects/asctb.jpeg"
-    },
-    {
-        "id": "featured-project-scrapbook",
-        "title": "Scrapbook",
-        "year": "Jan 2021 - May 2021",
-        "location": "Indiana University",
-
+        "id": "featured-project-hedgerows",
+        "title": "Analyzing Ecological Richness Changes in Canadian Agricultural Field Boundaries",
+        "year": "Apr 2025 - Present",
+        "location": "University of British Columbia,Vancouver, Canada",
         "tags": [
-            "Angular 11",
-            "Flask",
-            "Node",
+            "PyTorch",
+            "Google Earth Engine",
             "Python",
+            "Colab"
+        ],
+        "description": "A research project to detect and analyze changes in the ecological richness of agricultural field boundaries in Canada.",
+        "image": "assets/featured-projects/hedgerows.webp",
+        "jpg": "assets/featured-projects/hedgerows.jpeg"
+    },
+    {
+        "id": "featured-project-mindwaves",
+        "title": "Mindwaves",
+        "year": "Sept 2024 - Present",
+        "location": "P&T Software GmBH, Frankfurt, Germany",
+        "demo": "https://mindwaves-research.com/",
+        "tags": [
+            "Flutter",
+            "TypeScript",
+            "Google Cloud Functions",
+            "Gitlab",
+            "Langfuse",
+            "OpenAI",
+            "Anthropic",
+            "Firebase"
+        ],
+        "description": "An AI agent designed for qualitative research analysis.",
+        "image": "assets/featured-projects/mindwaves.webp",
+        "jpg": "assets/featured-projects/mindwaves.jpeg"
+    },
+    {
+        "id": "featured-project-legaltegrity",
+        "title": "LegalTegrity",
+        "year": "Feb 2023 - Sep 2024",
+        "location": "P&T Software GmBH, Frankfurt, Germany",
+        "tags": [
+            "Vue",
+            "Spring Boot",
+            "Hasura",
+            "Gitlab",
             "TypeScript",
             "Docker",
-            "Docker Hub",
-            "Jenkins",
-            "Kubernetes",
-            "GKE",
-            "GCP"
+            "Grafana",
+            "Google Cloud"
         ],
-        "demo": "http://34.69.102.109/",
-        "github": "https://github.com/hrishikeshpaul/scrapbook",
-        "description": "A micro-service architecture based web application that enables users to upload, share and manage images.",
-        "readMore": "https://hrishikeshpaul.medium.com/scrapbook-a-micro-service-based-photo-sharing-application-3a8760681af6",
-        "image": "assets/featured-projects/scrapbook.webp",
-        "jpg": "assets/featured-projects/scrapbook.jpeg"
+        "demo": "https://legaltegrity.com",
+        "description": "A digital whistleblower system for companies.",
+        "image": "assets/featured-projects/legaltegrity.webp",
+        "jpg": "assets/featured-projects/legaltegrity.jpeg"
     },
     {
-        "id": "featured-project-measure-ux",
-        "location": "Indiana University",
-        "title": "Measuring User Experience",
-        "year": "Sep 2020 - Dec 2020",
-        "tags": ["UX Research", "User Journey", "Experience Mapping", "Surveys", "Interviews", "Adobe XD"],
-        "description": "A project to quantify user experiences demonstrated by measuring the user experience of uploading a photo on Instagram.",
-        "readMore": "https://hrishikeshpaul.medium.com/measuring-user-experience-an-instagram-case-study-89bfb78f2c6b",
-        "image": "assets/featured-projects/measure-ux.webp",
-        "jpg": "assets/featured-projects/measure-ux.jpeg"
+        "id": "featured-project-okalee",
+        "location": "SoftSquare IT, Djerba, Tunisia",
+        "title": "Okalee",
+        "year": "Jun 2022 - Feb 2023",
+        "tags": [
+            "Symfony",
+            "User Journey",
+            "React",
+            "Typescript"
+        ],
+        "demo": "https://www.site.okalee.fr",
+        "description": "A multi-tenant Learning Management System (LMS) for French schools.",
+        "image": "assets/featured-projects/okalee.webp",
+        "jpg": "assets/featured-projects/okalee.jpeg"
+    },
+    {
+        "id": "featured-project-doranco",
+        "location": "SoftSquare IT, Djerba, Tunisia",
+        "title": "Doranco",
+        "year": "Oct 2021 - Jun 2022",
+        "tags": [
+            "Symfony",
+            "User Journey",
+            "Twig",
+            "JQuery",
+            "Bootstrap"
+        ],
+        "demo": "https://www.doranco-formations.fr",
+        "description": "A Learning Management System (LMS) for a higher education institution in France.",
+        "image": "assets/featured-projects/doranco.webp",
+        "jpg": "assets/featured-projects/doranco.jpeg"
     }
 ]
