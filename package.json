@@ -2,6 +2,7 @@
   "name": "personal-website",
   "version": "1.0.0",
   "description": "Personal website of Salem Hamdani",
+  "homepage": "https://salemhamdani.github.io/portfolio",
   "author": "Salem Hamdani",
   "private": true,
   "dependencies": {
@@ -28,14 +29,16 @@
     "@types/jest": "^27.4.0",
     "@types/node": "^16.11.22",
     "@types/react": "^17.0.39",
-    "@types/react-dom": "^17.0.11"
+    "@types/react-dom": "^17.0.11",
+    "gh-pages": "^6.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "git push prod main"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
