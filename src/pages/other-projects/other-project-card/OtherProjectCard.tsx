@@ -27,9 +27,9 @@ export const OtherProjectCard: FC<Props> = ({ id, title, demo, github, tags, des
         >
             <Box flex="0.25" display={{ base: "none", md: "block" }} data-aos="fade-up" data-aos-offset="200">
                 <picture>
-                    <source type="image/webp" srcSet={image}></source>
-                    <source type="image/jpeg" srcSet={jpg}></source>
-                    <Image ignoreFallback src={image} borderRadius="xl" alt={`${title}-cover-image`} />
+                    <source type="image/webp" srcSet={`${process.env.PUBLIC_URL}/${image}`}></source>
+                    <source type="image/jpeg" srcSet={`${process.env.PUBLIC_URL}/${jpg}`}></source>
+                    <Image ignoreFallback src={`${process.env.PUBLIC_URL}/${image}`} borderRadius="xl" alt={`${title}-cover-image`} />
                 </picture>
             </Box>
             <Flex w="100%" direction="column" alignContent="center" flex={1}>

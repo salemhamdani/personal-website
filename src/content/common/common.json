@@ -4,10 +4,10 @@
         "mobile": "HP",
         "desktop": "Hamdani Salem"
     },
-    "mainPicture": "/assets/HP.webp",
-    "mainPictureJPG": "/assets/HP.jpeg",
+    "mainPicture": "assets/HP.webp",
+    "mainPictureJPG": "assets/HP.jpeg",
     "pronunciation": "/ˈsæ.ləm/",
-    "audioFile": "/assets/name-pro.m4a",
+    "audioFile": "assets/name-pro.m4a",
     "cssVarPrefix": "hp",
     "email": "salemhamdani09@gmail.com",
     "linkedin": "https://www.linkedin.com/in/salem-hamdani/",

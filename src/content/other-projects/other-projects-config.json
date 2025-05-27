@@ -12,8 +12,8 @@
             "Machine Learning"
         ],
         "description": "Prostate Cancer Radar is a small research project that was created in a collaboration with KSU AI Lab and a Tunisian doctor to support diagnosis for 10,000+ men in North Africa.",
-        "image": "/assets/other-projects/cancer.webp",
-        "jpg": "/assets/other-projects/cancer.jpeg"
+        "image": "assets/other-projects/cancer.webp",
+        "jpg": "assets/other-projects/cancer.jpeg"
     },
     {
         "id": "other-project-loan-management",
@@ -26,8 +26,8 @@
             "Html"
         ],
         "description": "This project is built on a microservices architecture to manage loans and their statuses.",
-        "image": "/assets/other-projects/loan.webp",
-        "jpg": "/assets/other-projects/loan.jpeg"
+        "image": "assets/other-projects/loan.webp",
+        "jpg": "assets/other-projects/loan.jpeg"
     },
     {
         "id": "other-project-Veilcomm",
@@ -38,8 +38,8 @@
             "Python"
         ],
         "description": "Veilcomm is a E2E communication App based on x509 certificates and rsa encryption.",
-        "image": "/assets/other-projects/Veilcomm.webp",
-        "jpg": "/assets/other-projects/Veilcomm.jpeg"
+        "image": "assets/other-projects/Veilcomm.webp",
+        "jpg": "assets/other-projects/Veilcomm.jpeg"
     },
     {
         "id": "other-project-kallos",
@@ -54,8 +54,8 @@
             "NestJS"
         ],
         "description": "Kallos is an online Greek gifts store created with high-end design and a modern UI/UX.",
-        "image": "/assets/other-projects/kallos.webp",
-        "jpg": "/assets/other-projects/kallos.jpeg"
+        "image": "assets/other-projects/kallos.webp",
+        "jpg": "assets/other-projects/kallos.jpeg"
     },
     {
         "id": "other-project-image-processing",
@@ -67,7 +67,7 @@
             "Tkinter"
         ],
         "description": "This project is a desktop app to apply different convolution filters with a user-friendly interface.",
-        "image": "/assets/other-projects/image-processing.webp",
-        "jpg": "/assets/other-projects/image-processing.jpeg"
+        "image": "assets/other-projects/image-processing.webp",
+        "jpg": "assets/other-projects/image-processing.jpeg"
     }
 ]

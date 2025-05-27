@@ -1,5 +1,5 @@
 {
     "headline": "Hello, I am Salem Hamdani.",
-    "picture": "/assets/landing/face.webp",
-    "jpg": "/assets/landing/face.jpeg"
+    "picture": "assets/landing/face.webp",
+    "jpg": "assets/landing/face.jpeg"
 }
