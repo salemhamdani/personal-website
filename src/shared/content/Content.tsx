@@ -1,5 +1,4 @@
-import { FC, useEffect, useState } from "react";
-
+import { FC } from "react";
 import { Text, Stack, StyleProps, Link, UnorderedList } from "@chakra-ui/react";
 import ReactMarkdown from "react-markdown";
 
@@ -8,15 +7,7 @@ import landing from "content/landing/landing-config.json";
 import featuredProjects from "content/featured-projects/featured-projects-config.json";
 import otherProjects from "content/other-projects/other-projects-config.json";
 import about from "content/about/about-config.json";
-
-import LandingMd from "content/landing/landing.md";
-import AboutMd from "content/about/about.md";
-
-// Get the base URL from package.json homepage or default to '/'
-const getBaseUrl = () => {
-    const homepage = process.env.PUBLIC_URL || '';
-    return homepage.endsWith('/') ? homepage : `${homepage}/`;
-};
+import { markdownContent } from "content/markdown-content";
 
 export const configs = {
     common,
@@ -36,24 +27,11 @@ export enum MarkdownFile {
     About = "about",
 }
 
-const Mapper = {
-    [MarkdownFile.Landing]: LandingMd,
-    [MarkdownFile.About]: AboutMd,
-};
-
 export const useContent = (fileName: MarkdownFile) => {
-    const [data, setData] = useState<State>({ landing: "", about: "" });
-
-    useEffect(() => {
-        // Use the base URL when fetching content
-        const baseUrl = getBaseUrl();
-        fetch(`${baseUrl}${Mapper[fileName]}`)
-            .then((res) => res.text())
-            .then((text) => setData((data) => ({ ...data, [fileName]: text })))
-            .catch(error => console.error(`Error loading content for ${fileName}:`, error));
-    }, [fileName]);
-
-    return data;
+    // Return the content directly from our markdown content object
+    return {
+        [fileName]: markdownContent[fileName]
+    } as State;
 };
 
 interface Props extends StyleProps {
