@@ -12,12 +12,6 @@ import about from "content/about/about-config.json";
 import LandingMd from "content/landing/landing.md";
 import AboutMd from "content/about/about.md";
 
-// Get the base URL from package.json homepage or default to '/'
-const getBaseUrl = () => {
-    const homepage = process.env.PUBLIC_URL || '';
-    return homepage.endsWith('/') ? homepage : `${homepage}/`;
-};
-
 export const configs = {
     common,
     landing,
@@ -45,12 +39,9 @@ export const useContent = (fileName: MarkdownFile) => {
     const [data, setData] = useState<State>({ landing: "", about: "" });
 
     useEffect(() => {
-        // Use the base URL when fetching content
-        const baseUrl = getBaseUrl();
-        fetch(`${baseUrl}${Mapper[fileName]}`)
+        fetch(Mapper[fileName])
             .then((res) => res.text())
-            .then((text) => setData((data) => ({ ...data, [fileName]: text })))
-            .catch(error => console.error(`Error loading content for ${fileName}:`, error));
+            .then((text) => setData((data) => ({ ...data, [fileName]: text })));
     }, [fileName]);
 
     return data;

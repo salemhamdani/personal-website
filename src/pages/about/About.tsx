@@ -22,9 +22,9 @@ export const About: FC = () => {
             <Flex pt="8" gap={{ base: 6, md: 6, lg: 12 }} direction={{ base: "column", md: "row" }}>
                 <Box flex="0.35" data-aos="fade-up">
                     <picture>
-                        <source type="image/webp" srcSet={`${process.env.PUBLIC_URL}${configs.common.mainPicture}`}></source>
-                        <source type="image/jpeg" srcSet={`${process.env.PUBLIC_URL}${configs.common.mainPictureJPG}`}></source>
-                        <Image borderRadius="xl" src={`${process.env.PUBLIC_URL}${configs.common.mainPicture}`} w="100%" alt="profile image" />
+                        <source type="image/webp" srcSet={configs.common.mainPicture}></source>
+                        <source type="image/jpeg" srcSet={configs.common.mainPictureJPG}></source>
+                        <Image borderRadius="xl" src={configs.common.mainPicture} w="100%" alt="profile image" />
                     </picture>
                 </Box>
                 <Box flex="0.85">
