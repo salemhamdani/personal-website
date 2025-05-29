@@ -30,7 +30,7 @@
             "Anthropic",
             "Firebase"
         ],
-        "description": "An AI agent designed for qualitative research analysis.",
+        "description": "Mindwaves V3 is an AI agent designed for qualitative research analysis. And as Core Developer I am Contributing to its development by implementing scalable backend logic using Google Cloud Functions, enhancing the mobile experience with Flutter, and optimizing AI integrations through effective prompt engineering to deliver smoother and more intelligent user interactions.",
         "image": "assets/featured-projects/mindwaves.webp",
         "jpg": "assets/featured-projects/mindwaves.jpeg"
     },
@@ -50,7 +50,7 @@
             "Google Cloud"
         ],
         "demo": "https://legaltegrity.com",
-        "description": "A digital whistleblower system for companies.",
+        "description": "LegalTegrity is a digital whistleblower system for companies. As a Core developer, I am responsible for maintaining and enhancing its performance and features, serving over 500 clients. My work involves backend development, frontend implementation, data management, and ensuring reliable CI/CD processes using GitLab pipelines.",
         "image": "assets/featured-projects/legaltegrity.webp",
         "jpg": "assets/featured-projects/legaltegrity.jpeg"
     },
@@ -66,7 +66,7 @@
             "Typescript"
         ],
         "demo": "https://www.site.okalee.fr",
-        "description": "A multi-tenant Learning Management System (LMS) for French schools.",
+        "description": "Okalee is a multi-tenant Learning Management System (LMS) designed for French schools. As the Lead Developer, I spearheaded the development of the platform. The LMS has been successfully delivered and will be deployed to over 20 clients, enhancing digital learning and administrative efficiency across multiple institutions.",
         "image": "assets/featured-projects/okalee.webp",
         "jpg": "assets/featured-projects/okalee.jpeg"
     },
@@ -83,7 +83,7 @@
             "Bootstrap"
         ],
         "demo": "https://www.doranco-formations.fr",
-        "description": "A Learning Management System (LMS) for a higher education institution in France.",
+        "description": "Doranco is a Learning Management System (LMS) used by over 5,000 users in a higher education institution in France. As a Core Developer, I led the migration of the system from Symfony 3.4 to 5.4, modernizing outdated bundles and enhancing maintainability. Additionally, I optimized the frontend, resulting in a 300% performance improvement across the platform.",
         "image": "assets/featured-projects/doranco.webp",
         "jpg": "assets/featured-projects/doranco.jpeg"
     }
