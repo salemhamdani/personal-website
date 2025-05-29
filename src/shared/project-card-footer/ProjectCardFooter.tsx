@@ -69,7 +69,7 @@ export const LiveDemo: FC<LiveDemoProps> = ({ demo, display }) => {
             icon={<LinkIcon fontSize="14pt" />}
             onClick={() => open(demo)}
         >
-            Live Demo
+            Demo
         </Button>
     ) : null;
 };

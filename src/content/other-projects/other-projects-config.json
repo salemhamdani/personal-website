@@ -2,6 +2,7 @@
     {
         "id": "other-project-cancer-radar",
         "title": "Prostate Cancer Radar",
+        "role": "Main researcher",
         "year": "Feb 2024 - May 2024",
         "github": "https://github.com/salemhamdani/ProstateCancerRadar",
         "tags": [
@@ -18,6 +19,7 @@
     {
         "id": "other-project-Veilcomm",
         "title": "Veilcomm",
+        "role": "Co-developer",
         "year": "Jan 2023 - Feb 2023",
         "github": "https://github.com/salemhamdani/EndToEndMessagingApp",
         "tags": [
@@ -29,6 +31,7 @@
     },
     {
         "id": "other-project-kallos",
+        "role": "Co-developer",
         "title": "Kallos",
         "year": "Jan 2023 - Apr 2023",
         "github": "https://github.com/nawresncib12/Kallos.git",
@@ -45,6 +48,7 @@
     },
     {
         "id": "other-project-image-processing",
+        "role": "Co-developer",
         "title": "Image Processing Software",
         "year": "Oct 2022 - Dec 2022",
         "github": "https://github.com/IsmailCharfi/ImageProcessingApp/tree/main",
