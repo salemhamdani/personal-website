@@ -141,6 +141,15 @@
                 "English",
                 "German"
             ]
+        },
+        {
+            "title": "Certificates",
+            "tools": [
+                "TOEFL iBT (C1)",
+                "Machine Learning Specialization",
+                "EF SET Certificate (C2)",
+                "Microsoft Office Specialist"
+            ]
         }
     ]
 }
